@@ -1,0 +1,21 @@
+Student_ID,Name,Department,Attendance,Python,Mathematics,Statistics,Database,Total,Average,Grade,Result
+S001,Aarav,Computer Science,92,88,91,86,90,355,88.75,A,Pass
+S002,Diya,Information Technology,85,78,82,80,84,324,81.0,A,Pass
+S003,Rohan,Computer Science,74,67,72,70,69,278,69.5,F,Fail
+S004,Ananya,Electronics,96,95,93,97,94,379,94.75,A+,Pass
+S005,Arjun,Information Technology,81,56,61,59,63,239,59.75,D,Pass
+S006,Meera,Computer Science,89,84,87,82,85,338,84.5,A,Pass
+S007,Vikram,Mechanical,77,45,52,48,50,195,48.75,F,Pass
+S008,Isha,Electronics,98,91,89,94,92,366,91.5,A+,Pass
+S009,Karthik,Computer Science,68,72,65,70,68,275,68.75,F,Fail
+S010,Sneha,Information Technology,90,86,88,90,87,351,87.75,A,Pass
+S011,Aditya,Mechanical,83,38,42,40,45,165,41.25,F,Pass
+S012,Priya,Electronics,94,80,85,83,88,336,84.0,A,Pass
+S013,Manoj,Computer Science,79,61,58,64,62,245,61.25,C,Pass
+S014,Kavya,Information Technology,88,92,90,89,91,362,90.5,A+,Pass
+S015,Harsha,Mechanical,72,33,46,39,41,159,39.75,F,Fail
+S016,Nisha,Electronics,91,76,79,81,78,314,78.5,B,Pass
+S017,Teja,Computer Science,86,69,74,71,73,287,71.75,B,Pass
+S018,Anil,Mechanical,76,55,49,57,52,213,53.25,D,Pass
+S019,Varsha,Information Technology,95,89,87,91,90,357,89.25,A,Pass
+S020,Chaitanya,Computer Science,84,82,79,85,81,327,81.75,A,Pass
