@@ -1,4 +1,3 @@
-"""Student Performance Analytics System."""
 
 from pathlib import Path
 
@@ -12,7 +11,6 @@ DATA_FILE = Path(__file__).parent / "students.csv"
 
 
 def load_data(file_path):
-    """Read student records from the CSV file."""
     data = pd.read_csv(file_path)
 
     required_columns = [
@@ -31,7 +29,6 @@ def load_data(file_path):
 
 
 def add_results(data):
-    """Add total, average, grade and pass/fail columns."""
     result = data.copy()
     totals = []
     averages = []
@@ -58,7 +55,6 @@ def add_results(data):
 
 
 def show_student_results(data):
-    """Print each student's calculated result."""
     columns = [
         "Student_ID", "Name", "Department", "Attendance",
         *SUBJECTS, "Total", "Average", "Grade", "Result"
@@ -86,7 +82,6 @@ def show_class_summary(data):
 
 
 def show_subject_summary(data):
-    """Print the average mark for each subject."""
     subject_averages = data[SUBJECTS].mean().round(2)
     print("\n3. SUBJECT-WISE AVERAGE")
     print("-" * 40)
@@ -98,7 +93,6 @@ def show_subject_summary(data):
 
 
 def show_top_students(data):
-    """Print all students who share the highest average."""
     highest_average = data["Average"].max()
     top_students = data[data["Average"] == highest_average]
 
@@ -108,7 +102,6 @@ def show_top_students(data):
 
 
 def show_department_summary(data):
-    """Print average performance for each department."""
     print("\n5. DEPARTMENT-WISE AVERAGE")
     print("-" * 40)
     department_averages = data.groupby("Department")["Average"].mean().round(2)
